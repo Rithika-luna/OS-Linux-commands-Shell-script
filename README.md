@@ -574,15 +574,19 @@ fi
 ## OUTPUT
 
 
+<img width="1007" height="712" alt="image" src="https://github.com/user-attachments/assets/4a11d525-d0b7-4dc1-a3ff-0d9eeb84421c" />
+
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
 
+<img width="1220" height="152" alt="image" src="https://github.com/user-attachments/assets/966974cc-60b7-44d3-974a-762aa04d1088" />
+
 
 # check file ownership
-cat < psswdperm.sh 
+cat > psswdperm.sh 
 ```bash
 \#!/bin/bash
 if [ -O /etc/passwd ]
@@ -606,6 +610,10 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+
+<img width="906" height="620" alt="image" src="https://github.com/user-attachments/assets/69da02d6-f3d2-403b-990b-d1e1187e93c7" />
+
+<img width="866" height="151" alt="image" src="https://github.com/user-attachments/assets/b18b4793-ed50-486e-b257-ec3bde1f6d7a" />
 
 # check if with file location
 cat>ifnested.sh 
