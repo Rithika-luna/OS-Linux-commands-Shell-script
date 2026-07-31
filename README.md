@@ -1,4 +1,4 @@
-# OS-Linux-commands-Shell-scripting
+<img width="1257" height="800" alt="image" src="https://github.com/user-attachments/assets/f84d4867-56d1-4286-b359-7b9dc8715338" /># OS-Linux-commands-Shell-scripting
 Operating systems Lab exercise
 # Linux commands-Shell scripting
 Linux commands-Shell scripting
@@ -661,6 +661,9 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+<img width="1257" height="800" alt="image" src="https://github.com/user-attachments/assets/5fd3899d-77ae-471a-8d05-d13eebf5ede0" />
+
+<img width="1276" height="682" alt="image" src="https://github.com/user-attachments/assets/6a2c9ce9-4f19-4216-85a1-1bc976c44bc0" />
 
 
 # using numeric test comparisons
@@ -782,6 +785,8 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+<img width="1335" height="656" alt="image" src="https://github.com/user-attachments/assets/f2b6498f-6847-4dbe-862f-6c6fed8a69f3" />
+
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -797,6 +802,9 @@ fi
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
+<img width="970" height="380" alt="image" src="https://github.com/user-attachments/assets/90bf43e4-c762-47c0-9cf0-bf051de91467" />
+
 
 # using the case command
 cat >casecheck.sh 
@@ -816,6 +824,11 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+
+## output:
+
+<img width="886" height="602" alt="image" src="https://github.com/user-attachments/assets/a2a45579-ec80-44db-a875-67449c8a9061" />
+
  
 cat > whiletest
 ```bash
@@ -828,11 +841,18 @@ echo $var1
 var1=$[ $var1 - 1 ]
 done
 ```
+
+<img width="792" height="601" alt="image" src="https://github.com/user-attachments/assets/30da6337-0386-44ca-bc2d-a47aceba6dae" />
+
+
+
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
  
- 
+ <img width="772" height="361" alt="image" src="https://github.com/user-attachments/assets/57f77e00-bb11-442e-aee4-a3046e91c982" />
+
+
 cat untiltest.sh 
 ```bash
 \#using the until command
@@ -845,7 +865,10 @@ done
 ``` 
 $ chmod 755 untiltest.sh
  
- 
+## output:
+
+<img width="840" height="727" alt="image" src="https://github.com/user-attachments/assets/7adb5254-e2dc-480b-bb3c-fd9ed7dcb32b" />
+
  
 cat forin1.sh 
 ```bash
@@ -858,7 +881,11 @@ done
  ```
  
 $ chmod 755 forin1.sh
- 
+
+ <img width="932" height="587" alt="image" src="https://github.com/user-attachments/assets/8ff744a3-4fe5-43b9-b1a0-957a58654e5d" />
+
+<img width="635" height="384" alt="image" src="https://github.com/user-attachments/assets/60d3b231-ebea-4d1b-8ef5-25b962799a1d" />
+
  
 cat forin2.sh 
 ```bash
@@ -884,6 +911,11 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+
+## output:
+
+<img width="707" height="627" alt="image" src="https://github.com/user-attachments/assets/4f5af5ec-6705-431a-904f-1e89b45cd8c3" />
+
  
 cat forin3.sh 
 ```bash
@@ -895,6 +927,10 @@ echo "word:$test"
 done
 ```
 $ ./forin3.sh 
+## output :
+
+<img width="675" height="701" alt="image" src="https://github.com/user-attachments/assets/abdb25ea-1fdc-43bb-bba4-7b12204d86ed" />
+
  
 cat forin1.sh 
 ```bash
@@ -908,6 +944,10 @@ done
 $ chmod 755 forin1.sh
 
 ## OUTPUT
+
+<img width="675" height="675" alt="image" src="https://github.com/user-attachments/assets/c32d7638-9566-408e-88a2-750d94dc5f74" />
+
+
 cat forinfile.sh 
 ```bash
 #!/bin/bash
@@ -930,6 +970,8 @@ Khammam
 
 ## OUTPUT
 
+<img width="677" height="716" alt="image" src="https://github.com/user-attachments/assets/e4783ee0-50b6-4382-99f3-c1d82d125db2" />
+
 
 cat forctype.sh 
 ```bash
@@ -944,6 +986,9 @@ $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
 
+<img width="691" height="676" alt="image" src="https://github.com/user-attachments/assets/ad1d37f8-9cdc-4ff4-8296-1f8da33289f7" />
+
+
 cat forctype1.sh 
 ```bash
 #!/bin/bash
@@ -956,6 +1001,9 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+
+<img width="676" height="542" alt="image" src="https://github.com/user-attachments/assets/5f371569-d395-48ee-9425-fffb4170d49e" />
+
 
 cat fornested1.sh 
 ```bash
@@ -974,6 +1022,10 @@ $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+ 
+<img width="685" height="707" alt="image" src="https://github.com/user-attachments/assets/5a042632-0cf4-4a95-bafc-9d02f44c17db" />
+
+<img width="698" height="730" alt="image" src="https://github.com/user-attachments/assets/906f588f-e529-4419-b19b-8564947affc8" />
 
  
 cat forbreak.sh 
