@@ -1042,11 +1042,15 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
-## OUTPUT
-
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
+## OUTPUT
+
+<img width="717" height="630" alt="image" src="https://github.com/user-attachments/assets/74f8e284-49ae-4e9d-bf3d-879f30b33e4e" />
+
+
+
  
 cat forbreak.sh 
 ```bash
@@ -1068,6 +1072,11 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+
+<img width="650" height="736" alt="image" src="https://github.com/user-attachments/assets/882802b1-71a1-4712-a9b8-7621ee1e1b62" />
+
+<img width="705" height="612" alt="image" src="https://github.com/user-attachments/assets/5cb46d7c-88b4-474d-9625-2f9e8592cdcc" />
+
  
 cat exread.sh 
 ```bash
@@ -1082,6 +1091,8 @@ $ chmod 755 exread.sh
  
 $ ./exread.sh 
 ## OUTPUT
+
+<img width="687" height="615" alt="image" src="https://github.com/user-attachments/assets/b6c903e2-3f60-4484-a8cc-b98c8360b27f" />
 
 
  cat exread1.sh
@@ -1115,6 +1126,11 @@ echo "Usage: badtest1 a b"
 fi
 ```
 ## OUTPUT
+
+<img width="940" height="657" alt="image" src="https://github.com/user-attachments/assets/dd0f1a5a-f4c8-4bff-a092-917a33c6e7b2" />
+
+
+
  ./funcex.sh 
 
  
